@@ -1,0 +1,77 @@
+# ===============================
+# Arduino / ESP32 Build Files
+# ===============================
+*.elf
+*.hex
+*.bin
+*.map
+*.exe
+*.o
+*.a
+*.d
+
+# Build & output directories
+build/
+out/
+dist/
+
+# ===============================
+# Arduino IDE
+# ===============================
+*.ino.bak
+*.ino.tmp
+*.log
+
+# ===============================
+# PlatformIO
+# ===============================
+.pio/
+.vscode/
+.cproject
+.project
+.settings/
+
+# ===============================
+# VS Code
+# ===============================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ===============================
+# CLion / JetBrains
+# ===============================
+.idea/
+cmake-build-*/
+
+# ===============================
+# Mac / Linux / Windows junk
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Temporary files
+# ===============================
+*.tmp
+*.swp
+*~
+*.bak
+
+# ===============================
+# Python (optional tools/scripts)
+# ===============================
+__pycache__/
+*.pyc
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# Auto-generated documentation
+# ===============================
+_site/
